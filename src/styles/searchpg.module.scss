@@ -1,0 +1,29 @@
+.products{
+    padding-top: 4rem;
+    width: 100%;background-color: white;
+    .container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .noMatchingItem{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        img {
+           width: 100px;
+           height: 100px;
+
+        };
+           p{
+               padding-top: 25px;
+               color:rgb(94, 238, 156);
+               font-size: 30px;
+               font-weight: 600;
+           }
+       }
+}
+}

@@ -1,0 +1,70 @@
+
+
+.categories {
+    padding-top: 4rem;
+
+    background-color: white;
+    color: black;
+    width: 100%;
+
+    h3 {
+        font-size: 20px;
+        color:  rgb(94, 238, 156);
+        font-weight: 700;
+    }
+    .brands,
+    .color,
+    .size, .price {
+        font-size: 14px;
+    }
+    .brands,
+    .color,
+    .size {
+        padding: 20px;
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+
+            li {
+                width: 50%;
+            }
+        }
+    }
+
+    .price {
+        padding: 20px;
+    }
+
+    /* Custom checkbox styles */
+    input[type="checkbox"] {
+        accent-color: rgb(94, 238, 156);
+
+    }
+
+    .buttons {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+
+        button{
+    background-color: rgb(94, 238, 156);
+padding: 15px;
+border-radius: 30px;
+color: white;
+font-weight: 700;
+font-size: 15px;
+}
+
+    }
+}
+@media(min-width:576px){
+    .categories{
+        .brands,
+        .color,
+        .size, .price {
+            font-size: 16px;
+        } 
+    }
+}

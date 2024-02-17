@@ -1,0 +1,146 @@
+.back {
+    background-color: rgb(255, 255, 255);
+    
+    width: 100%;
+    padding: 7px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+.logo{
+    width: 30%;
+}
+
+    .navmenu2 {
+        display: none;
+    }
+
+    .navmenu {
+
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-wrap: wrap;
+        height: 100vh;
+        z-index: 99;
+        background: rgb(0,0,0);
+        background: linear-gradient(0deg, rgba(0,0,0,0.6223739495798319) 0%, rgba(255,255,255,0) 100%);
+
+
+        .list {
+            height: 100%;
+            width: 40%;
+            background-color: white;
+            display: flex;
+
+            align-items: center;
+
+            ul {
+                padding-left: 2.5rem;
+
+            
+
+                li {
+                    padding-block: 20px;
+
+                    a {
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+
+
+    }
+
+    .right {
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        .search{
+            width: 80%;
+        }
+        .bars {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: #2ac37d;
+            padding: 2px 0 0 7px;
+            display: block;
+
+            i {
+
+                color: white;
+            }
+        }
+    }
+
+}
+
+@media(min-width:768px) {
+    .back {
+        .navmenu{
+            .list{
+                ul{
+                    padding-left: 5rem;
+                }
+            }
+        }
+    }
+}
+
+@media(min-width:992px) {
+
+}
+
+@media(min-width:1200px) {
+    .back {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo {
+            width: 20%;
+        }
+
+        .navmenu2 {
+            width: 60%;
+            padding: 0;
+            position: static;
+            background-color: white;
+            height: fit-content;
+            display: block;
+
+            ul {
+                display: flex;
+                justify-content: center;
+
+                li {
+                    padding-block: 0;
+                    padding-inline: 20px;
+
+                    a {
+                        font-weight: 700;
+
+                    }
+
+                }
+            }
+        }
+
+        .navmenu {
+            display: none;
+        }
+
+        .right {
+            width: 20%;
+
+            .bars {
+                display: none;
+            }
+        }
+    }
+}

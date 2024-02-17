@@ -1,0 +1,91 @@
+.tab-menu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+
+    button {
+      color: gray;
+      padding: 10px;
+      font-weight: bold;
+      font-size: 12px;
+
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+      transition: color 0.3s;
+
+      &:hover {
+        color: #5eee9c;
+        font-weight: bold;
+      }
+
+
+    }
+  }
+
+}
+
+.activeButton {
+  color: #5eee9c !important;
+  font-weight: bold !important;
+  background-color: #f3f3f3 !important;
+  border-radius: 4px !important;
+}
+
+@media(min-width:576px) {
+  .tab-menu {
+    .buttons {
+      button {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media(min-width:768px) {
+  .tab-menu {
+    .buttons {
+
+      button {
+        font-size: 17px;
+      }
+    }
+  }
+}
+
+@media(min-width:992px) {
+  .tab-menu {
+  
+
+    .buttons {
+     
+
+      button {
+        font-size: 15px;
+        padding: 8px;
+      }
+    }
+  }
+}
+
+@media(min-width:1200px) {
+  .tab-menu {
+   
+
+    .buttons {
+      width: 92.5%;
+      justify-content: flex-end;
+
+      button {
+        font-size: 15px;
+        padding: 8px;
+      }
+    }
+  }
+}

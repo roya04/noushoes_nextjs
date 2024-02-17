@@ -1,0 +1,230 @@
+.mission {
+    background-image: url(//nou-shoes.myshopify.com/cdn/shop/files/home-testimonial.jpg?v=1613650920);
+    width: 100%;
+    height: 65vh;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .backgorund {
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.748);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .boxes {
+
+
+            text-align: center;
+            font-weight: 500;
+
+            h1 {
+                font-size: 20px;
+                color: rgb(94, 238, 156);
+            }
+
+            p {
+                font-size: 25px;
+            }
+        }
+    }
+
+}
+
+.staff {
+    background-color: white;
+    width: 100%;
+
+    .container {
+        width: 85%;
+        margin: auto;
+
+        .textbox {
+            width: 100%;
+            position: relative;
+            font-weight: 700;
+
+            h1 {
+                font-size: 65px;
+                color: rgba(116, 131, 144, 0.133);
+
+            }
+
+            h6 {
+                position: absolute;
+                left: 0;
+                top: 50%;
+                transform: translateY(-50%);
+                color: black;
+                z-index: 6;
+                font-size: 15px;
+            }
+        }
+
+        .boxes {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            .box {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+
+                .imgbox {
+                    width: 100%;
+                    display: flex;
+                  display: flex;
+                  justify-content: center;
+                }
+
+                .content {
+                    text-align: center;
+                    width: 100%;
+                    margin: auto;
+                    color: black;
+
+                    h5 {
+                        font-weight: 500;
+                    }
+
+                    p {
+                        color: rgb(116, 131, 144);
+
+                    }
+                }
+
+            }
+        }
+    }
+
+}
+
+.join {
+    padding-block: 2rem;
+    width: 100%;
+    background-color: white;
+    border-top: 1px solid rgb(216, 215, 215);
+
+    .container {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+
+        h5 {
+            color: black;
+            font-weight: 700;
+            font-size: 25px;
+        }
+
+        p {
+            color: rgb(116, 131, 144);
+
+        }
+
+        .box {
+            width: 100%;
+        }
+
+        .boxlast {
+            width: 100%;
+            h5 {
+                padding-bottom: 2rem;
+            }
+
+            a {
+                border-radius: 30px;
+                color: white;
+                padding: 15px;
+                background-color: rgb(94, 238, 156);
+            }
+        }
+    }
+}
+
+.contact {
+    width: 100%;
+    padding-block: 3rem;
+    background-color: white;
+  }
+@media(min-width:768px) {
+    .staff {
+        .container {
+            .textbox {
+                h1 {
+                    font-size: 90px;
+                }
+
+                h6 {
+                    font-size: 20px;
+                }
+            }
+
+            .boxes {
+                .box {
+                    width: 50%;
+                }
+            }
+        }
+
+    }
+
+    .join {
+        .container {
+            .box {
+                width: 25%;
+            }
+
+            .boxlast {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media(min-width:992px) {
+    .mission {
+        height: 75vh;
+
+        .backgorund {
+            .boxes {
+                h1 {
+                    font-size: 30px;
+
+                }
+
+                p {
+                    font-size: 40px;
+
+                }
+            }
+        }
+    }
+
+    .staff {
+        .container {
+            .boxes {
+                .box {
+                    width: 25%;
+                }
+            }
+        }
+    }
+
+    .join {
+        .container {
+            .box {
+                width: 15%;
+
+            }
+
+            .boxlast {
+                width: 40%;
+            }
+        }
+
+    }
+}

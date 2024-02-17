@@ -1,0 +1,70 @@
+.search{
+    background-color: #F6F6F6;
+    border-radius: 30px;
+    width: 80%;
+input{
+    background-color: #F6F6F6;
+    border-radius: 30px;
+    padding: 5px 10px;
+    outline: transparent;
+    caret-color:#47c87f;
+    width: 83%;
+    color: #47c87f;
+    font-weight: 600;
+}
+i{
+    color: #47c87f;
+    font-size: 20px;font-weight: 700 ;
+}
+}
+@media(min-width:576px){
+    .search{
+   
+        width: 80%;
+    input{
+     
+        width: 86%;
+       
+    }
+  
+    }
+}
+@media(min-width:768px){
+    .search{
+       
+        width: 80%;
+    input{
+     
+        padding: 10px 15px;
+    
+        width: 88%;
+      
+    }
+
+    
+    }
+}
+@media(min-width:992px){
+    .search{
+      
+        width: 80%;
+    input{
+      
+        width: 90%;
+      
+    }
+ 
+    }
+}
+@media(min-width:1200px){
+    .search{
+   
+        width: 90%;
+    input{
+       
+        width: 85%;
+       
+    }
+   
+    }
+}
